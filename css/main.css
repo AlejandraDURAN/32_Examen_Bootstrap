@@ -22,10 +22,55 @@ nav.navbar{/*Color del nav bar*/
 }
 
 /*clases de posicionamiento*/
-
+.pb-5{
+    padding-bottom: 5%;
+}
 .pt-5{
     padding-top: 5%;
 }
 .mt-10{
     margin-top: 10%;
 }
+.mb-10{
+    margin-bottom: 10%;
+}
+
+.ml-20{
+    margin-left: 20%;
+}
+.ml-18{
+    margin-right: 18%;
+}
+hr{
+    width: 40%;
+}
+.text-white{
+    color: white;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+  }
+
+.black{
+    background-color: black;
+    width: 60%; 
+    height: 90px;
+    padding: 8%;
+    opacity: 0.2;
+    border: solid white 5px;
+    margin-left:20%;
+    margin-top: -20%;
+ }
+.star{
+ width: 5%;
+}
+ .inline{
+   float: right;
+ }
+
+ .box1{
+   background-color: red;
+ }
