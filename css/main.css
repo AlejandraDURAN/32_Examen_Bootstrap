@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+@import 'https://fonts.googleapis.com/css?family=Exo';
+
+nav.navbar{/*Color del nav bar*/
+	background-color:lightgray;
+	border: none;
+}
+
+.navbar-default .navbar-brand {/*Color del titulo*/
+    color: white;
+    font-size: 200%;
+    font-family: 'Exo';
+}
+.navbar-default .navbar-nav > li > a { /*Color de links*/
+    color: #D7DBDD;
+    font-family: 'Exo'
+    font-size: 130%;
+}
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+/*clases de posicionamiento*/
+
+.pt-5{
+    padding-top: 5%;
+}
+.mt-10{
+    margin-top: 10%;
+}
