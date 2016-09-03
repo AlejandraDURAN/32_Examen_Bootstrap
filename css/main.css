@@ -21,38 +21,27 @@ nav.navbar{/*Color del nav bar*/
     color: black;
 }
 
-/*clases de posicionamiento*/
-.pb-5{
-    padding-bottom: 5%;
-}
-.pt-5{
-    padding-top: 5%;
-}
-.mt-10{
-    margin-top: 10%;
-}
-.mb-10{
-    margin-bottom: 10%;
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 18%;
+      margin: auto;
+  }
+
+body{
+    font-family: 'Exo';
 }
 
-.ml-20{
-    margin-left: 20%;
-}
-.ml-18{
-    margin-right: 18%;
-}
-hr{
-    width: 40%;
-}
+
 .text-white{
     color: white;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 30%;
-      margin: auto;
-  }
+.back1{
+    background-image: url("../assets/images/client-bg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 190px;
+}
 
 .black{
     background-color: black;
@@ -67,10 +56,40 @@ hr{
 .star{
  width: 5%;
 }
+.star1{
+ width: 10%;
+}
  .inline{
    float: right;
  }
 
  .box1{
-   background-color: red;
+   background-color: white;
+   border: solid gray 2px;
  }
+
+
+ /*clases de posicionamiento*/
+.pb-5{
+    padding-bottom: 5%;
+}
+.pt-5{
+    padding-top: 5%;
+}
+
+.pt-2{
+    padding-top: 2%;
+}
+.mt-10{
+    margin-top: 10%;
+}
+.mb-10{
+    margin-bottom: 10%;
+}
+
+.ml-20{
+    margin-left: 20%;
+}
+.ml-18{
+    margin-right: 18%;
+}
